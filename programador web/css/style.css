@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&display=swap');
+
+
+body {font-size: 16px; font-family: 'Baloo Tamma 2', cursive;}
+
+#container {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+
+img { max-width: 100%;}
+
+h1 img {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ }
+
+
+h1 { 
+    font-family: 'Baloo Tamma 2'; 
+    text-align: center;
+    margin-top: 10px;
+    color: #492986;
+}
+
+h2 { 
+    padding-top: 10px;
+    text-align: center;
+    background-color: #845EC2;
+    color: white;
+    border-radius: 80px;
+    width: 80%;
+    height: 50%;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+
+li a {
+    color: #845EC2;
+}
+
+.color {
+     background-color:#c4b1d350;
+     /* border-top-left-radius: 30px;
+     border-top-right-radius: 30px; */
+     padding: 5px;
+     margin-bottom: 5px;
+     border-top-left-radius: 2px;
+    border-top-right-radius: 100px;
+    }
+
+figcaption {
+    background-color: #492986;
+    color: white;
+    text-align: center;
+}
+
+.badge-secondary { background-color: #845EC2;}
+
+.card { margin-top: 20px;}
+
+h5 img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+@media screen and (min-width: 650px){
+    figure { max-width: 650px; margin: auto;}
+    h2 { font-size: 18px; width: 40%; height: 30%;}
+    p a { margin: 10px;}
+}
+
+@media screen and (min-width: 750px){
+    body { font-size: 18px;}
+}
+
+.teste{ background-color: #c4b1d350;}
